@@ -1,0 +1,290 @@
+.feed-banner {
+  background: url("../../assets/images/feed-banner.png");
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   height: 100vh;
+  text-align: center;
+
+  .feed-banner-content {
+    h2 {
+      color: #000;
+      font-family: "Anton", sans-serif;
+      font-size: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 40px;
+      letter-spacing: -0.35px;
+
+      span {
+        font-size: 30px;
+        display: block;
+        margin-top: 10px;
+      }
+    }
+
+    .banner-btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      // gap: 15px;
+
+      .feed-table-btn {
+        background: #fff;
+        color: #b3b3b3;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        border-radius: 12px 0px 0px 12px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+
+        &.active {
+          background: #f54333;
+          color: #fff;
+        }
+      }
+      .feed-table-btn svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      .feed-view-btn {
+        background: #fff;
+        color: #b3b3b3;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        border-radius: 0px 12px 12px 0px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+
+        &.active {
+          background: #f54333;
+          color: #fff;
+        }
+      }
+      .feed-view-btn svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .times-btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+
+      .time-table-btn {
+        color: #b3b3b3;
+        font-family: "Anton", sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 12px 0px 0px 12px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+
+        &.active {
+          color: #f54333;
+        }
+      }
+
+      .time-view-btn {
+        color: #b3b3b3;
+        font-family: "Anton", sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 0px 12px 12px 0px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+
+        &.active {
+          color: #f54333;
+        }
+      }
+    }
+    .pizza-container {
+      position: relative;
+      margin: 30px auto 0;
+      overflow: hidden;
+      background-size: cover;
+    }
+
+    .pizza {
+      width: 100%;
+      height: auto;
+      animation: rotatePizza 20s linear infinite;
+    }
+
+    .rider-border {
+      padding: 55px 30px;
+      border-radius: 100%;
+      width: 100%;
+      border: #d0d0d0 solid 1px;
+      position: relative;
+      height: 1257.96px;
+      margin: 52px 0px;
+      margin-bottom: -700px;
+    }
+
+    .rider {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: moveRider 15s linear infinite;
+    }
+    .time-border {
+      padding: 20px 10px;
+      border-radius: 100%;
+      width: 100%;
+      border: #b3b3b3 solid 1px;
+      position: relative;
+      height: 1150px;
+      margin: 52px 0px;
+      margin-bottom: -640px;
+    }
+    .time-tab {
+      position: absolute;
+    }
+    .times {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      font-family: "Anton", sans-serif;
+      font-size: 26px;
+    }
+    .times svg {
+      fill: #000;
+    }
+
+    .times.active svg {
+      fill: #f54333;
+    }
+
+    .time-0 {
+      position: absolute;
+      left: 590px;
+      top: -73px;
+      width: 100px;
+    }
+    .time-1 {
+      position: absolute;
+      left: 956px;
+      top: 26px;
+      width: 100px;
+      transform: rotate(36deg);
+    }
+    .time-2 {
+      position: absolute;
+      left: 1196px;
+      top: 275px;
+      width: 98px;
+      transform: rotate(65deg);
+    }
+    .time-3 {
+      position: absolute;
+      left: 215px;
+      top: 27px;
+      width: 100px;
+      transform: rotate(-30deg);
+    }
+    .time-4 {
+      position: absolute;
+      left: -19px;
+      top: 270px;
+      width: 100px;
+      transform: rotate(-65deg);
+    }
+    // Minutes
+    .minutes {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      font-family: "Anton", sans-serif;
+      font-size: 26px;
+    }
+    .minutes svg {
+      fill: #000;
+    }
+
+    .minutes.active svg {
+      fill: #f54333;
+    }
+
+    .minute-0 {
+      position: absolute;
+      left: 340px;
+      top: -52px;
+      width: 250px;
+      transform: rotate(-12deg);
+    }
+    .minute-1 {
+      position: absolute;
+      left: 733px;
+      top: -38px;
+      width: 250px;
+      transform: rotate(18deg);
+    }
+    .minute-2 {
+      position: absolute;
+      left: 1060px;
+      top: 182px;
+      width: 250px;
+      transform: rotate(51deg);
+    }
+    .minute-3 {
+      position: absolute;
+      left: 0px;
+      top: 141px;
+      width: 250px;
+      transform: rotate(-46deg);
+    }
+    .minute-4 {
+      position: absolute;
+      left: -19px;
+      top: 270px;
+      width: 250px;
+      transform: rotate(-65deg);
+    }
+  }
+}
+
+@keyframes rotatePizza {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveRider {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translate(655px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translate(655px)
+      rotate(-360deg);
+  }
+}

@@ -1,0 +1,147 @@
+.add-to-cart {
+  margin: 100px 0px;
+  position: relative;
+}
+.add-to-cart h1 {
+  font-family: Anton;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 56px;
+}
+.add-to-cart h5 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+.add-to-cart p {
+  font-family: Poppins;
+}
+.Tomato,
+.RedChili,
+.Capsicum {
+  position: absolute;
+}
+.Tomato {
+  width: 150px;
+  top: 0px;
+  right: 10%;
+}
+
+.Capsicum {
+  width: 150px;
+  top: -50px;
+  left: 150px;
+}
+.card-item img{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.RedChili {
+  bottom: 0;
+  right: 32%;
+}
+.cart-product-quantity {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cart-product-quantity svg {
+  cursor: pointer;
+  background-color: #f54333;
+  fill: white;
+  border-radius: 100%;
+  padding: 6px;
+  font-size: 26px;
+}
+.cart-product-quantity input {
+  text-align: center;
+  border: 1px #e2e2e2 solid;
+  border-radius: 6px;
+  width: 12%;
+  padding: 6px 6px;
+}
+.delete-icon {
+  font-family: Poppins;
+  gap: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.ml {
+  margin-left: 50px;
+}
+.delete-icon h5 {
+  margin: 0px !important;
+}
+.delete-icon svg {
+  border-radius: 100%;
+  font-size: 34px;
+  padding: 6px;
+  fill: #f54333;
+  border: #f54333 1px solid;
+  cursor: pointer;
+}
+.border-b {
+  border-bottom: 1px dashed #dfdfdf;
+  padding-bottom: 15px;
+}
+.border-b h5 {
+  text-transform: capitalize;
+}
+.promo-code {
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.promo-code h6 {
+  margin: 0px;
+}
+.promo-code input {
+  font-family: Poppins;
+  padding: 8px 6px;
+  border-radius: 8px;
+  border: 1px solid #dfdfdf;
+}
+.btn-txt {
+  margin: 0 auto;
+  color: #fff;
+  background-color: #f54333;
+  border: 0;
+  border-radius: 12px;
+  font-weight: 600;
+  width: 100%;
+  padding: 15px 0px;
+  display: ruby-text;
+  text-decoration: none;
+}
+
+.total-icon {
+  font-family: Poppins;
+  gap: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.total-icon h5 {
+  font-weight: 600;
+  color: #000;
+}
+.total-icon h4 {
+  font-weight: 600;
+  color: #f54333;
+}
+
+.empty h3 {
+  font-family: Anton;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0px;
+}
